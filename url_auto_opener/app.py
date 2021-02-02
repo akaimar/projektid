@@ -7,7 +7,7 @@ f = open(file_name, encoding = "UTF-8")
 num_lines = sum(1 for line in open(file_name))
 
 countsek = 6 #mitu sekundit on alla laadimise alustamiseks aega
-continue_sek = 20
+continue_sek = 20 #mitme sekundi järel avatakse uus link
 
 print("There are " + str(num_lines) + " entities in file " + file_name + " to be exported!")
 time.sleep(2)
